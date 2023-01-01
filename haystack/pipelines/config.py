@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 VALID_KEY_REGEX = re.compile(r"^[-\w/\\.:*]+$")
-VALID_VALUE_REGEX = re.compile(r"^[-\w/\\.:* \[\]]+$")
+VALID_VALUE_REGEX = re.compile(r"^[-\w/\\.:* \[\]]*$")
 VALID_ROOT_NODES = ["Query", "File"]
 
 
